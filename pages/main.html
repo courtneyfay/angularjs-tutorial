@@ -1,0 +1,50 @@
+<!-- <h1>This is main</h1>
+<hr />
+<input type="text" ng-model="name" /> -->
+<!-- <div>Scope value: {{ name }}</div> -->
+
+<label for="searchName">Search</label>
+<input type="text" value="Doe" name="searchName" />
+
+<h3>Search Results</h3>
+<div class="list-group">
+  <search-result
+    person-object="person"
+    formatted-address-function="formattedAddress(aperson)"
+    ng-repeat="person in people"
+  >
+    *Search results may not be valid
+  </search-result>
+</div>
+<!-- <search-result
+    person-name="{{ person.name }}"
+    person-address="{{ person.address }}"
+  ></search-result> -->
+<!-- <div search-result></div>
+  <div class="search-result"></div>
+  directive: search-result -->
+<!-- convert this into search-results directive -->
+<!-- <div class="list-group">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">Doe, John</h4>
+    <p class="list-group-item-text">
+      555 Main St, New York, NY, 11111
+    </p>
+  </a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">Doe, John</h4>
+    <p class="list-group-item-text">
+      555 Main St, New York, NY, 11111
+    </p>
+  </a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">Doe, John</h4>
+    <p class="list-group-item-text">
+      555 Main St, New York, NY, 11111
+    </p>
+  </a>
+</div> -->
